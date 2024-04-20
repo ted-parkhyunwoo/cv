@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ted Park">
+    <title>Welcome to my homepage.</title> <!--타이틀-->
+    <!--폰트패밀리 스타일 지정-->
+    <style> 
+        body {
+            font-family: monospace
+        }
+    </style>
+</head>
+
+<body>
+    <table> <!--더이상 셀 간격변경 cellspacing 을 사용할 수 없다...-->
+        <tr>
+            <td>
+                <img src="https://avatars.githubusercontent.com/u/164111894?v=4" width="100" height="100" alt="My Photo"> 
+                <!--img src="로컬주소 혹은 링크.alt속성렌더링 실패시 보일 텍스트.(선택사항)"-->
+            </td>    
+            
+
+            <td>
+                <h1>Ted Hyunwoo Park </h1>      <!--h1~6 제목으로 쓰는 글자크기-->    
+                <p><em>     <!--p는 문자열.-->
+                    <strong>Python</strong> developer<br> 
+                    C deveoper<br>
+                    Linux Pentester<br>
+                    Live in Incheon, South Korea
+                </em></p>
+                <!--em은 강조이탤릭, i는 그냥 폰트만 기울임.-->
+                <!--strong은 강조볼드, bold 는 폰트만 굵게-->
+            </td>
+        </tr>
+
+
+    </table>
+
+     
+
+    <p>
+        Hello, i am Ted Park. I am studying to become a skilled developer and pentester. 
+        If you're interested in application development, please check out my GitHub repositories at:<a href="https://github.com/ted-parkhyunwoo?tab=repositories">ted's repository</a> and feel free to review my code. 
+        <!--a : anchor, 하이퍼링크생성.Hypertext REFerence의 축약어-->
+        <br>
+        I respect your opinion, and I want to improve my code in a good direction.
+
+    </p>
+    <hr size="1", noshade=true>
+
+    <!--Bullet list 사용. (menu, ul, ol)-->
+    <h3>Python</h3>
+    <ul><!--ul 은 unordered List. 번호 없는 bullet list.-->
+        <li>python blackjack game on Terminal:<b>cui</b></li>
+        <li>python calculator on tkinter</li> 
+    </ul>
+    <hr size="1", noshade=true>
+    <h3>My Hobbies</h3>
+    <ol type="i"><!--ol은 Ordered list.type안쓰면 1.2.3-->
+        <li>Playing electric Guitar</li>
+        <li>Bass lure fishing</li>
+        <li>Watcing K-pop Videos with my wife</li>
+    </ol>
+    <hr size="1", noshade=true>
+    <h3>Favorite Foods</h3>
+    <menu>
+        <li>Coffee☕</li>
+        <li>Seafoods like Sushi🍣</li> <!--각 요소는 둘 다 li로 함-->
+    </menu>
+    <hr size="1", noshade=true>
+    <h3>Skills</h3>
+
+    <!--의미 없지만 챌린지임. html로 시트를 다루는게 비효율적인 이유임.-->
+    <table>
+        <td>
+            <table>
+                <tr>
+                    <td>Python</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>C lang</td>
+                    <td>⭐</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>Chilling</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Pentest Linux</td>
+                    <td>⭐⭐</td>
+                </tr>
+            </table>
+        </td>
+    </table>
+    
+    <hr size="1", noshade=true>    
+    <br>
+    <!--Table 사용함. 들여쓰기가 없으니....-->
+    <table>
+        <!-- Table Head 부분.-->
+        <thead>
+            <tr>
+                <th>Dates</th>  <!--간단한건 head로 안해도 되지만, 스타일 지정등 필요할 떄가 있음-->
+                <th>Work</th>
+            </tr>
+        </thead>
+        <!-- table body.-->
+        <tbody>
+            <tr>
+                <td>2015</td>
+                <td>develop asdf</td>
+            </tr>
+            <tr>
+                <td>2018~2020</td>
+                <td>develop 1234</td>
+        </tbody>
+        <tfoot>
+        </tfoot>
+        </tr>
+    </table>
+
+    <br>
+
+    <a href="contact.html">Contact me.</a>
+    <a href="inputs.html">Input-test page</a>
+    
+
+</body>
+</html>
+
