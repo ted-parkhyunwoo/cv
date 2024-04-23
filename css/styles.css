@@ -1,0 +1,195 @@
+.nanum-gothic-regular {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}  
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body {
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    /*css web safe fonts, css fonts stack 참고(기본값폰트).*/
+    /*https://fonts.google.com/ (무료폰트임베딩)*/
+    background-color: #FFFEEC;
+}
+
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    /* width: 10%;  */
+    /* 만약 width를 설정하면 text-align: center;가 풀리기 때문에, margin은 위와 같이 설정하면 된다. */      
+    font-family: "Sacramento", cursive;
+    font-weight: 100;
+    font-size: 5rem;
+    color: #FFFEEC;
+    line-height: 1;
+    /* px(고정), em,%(비율), rem(상위무시비율)
+    px는 브라우저 내부 폰트 크기 조정(세팅)시에도 고정되어버림.
+    em,%는 비율로써 내부조정 한만큼 더 커져서 시각장애인에게 유용.
+    대신, body등 상위클래스에 덧붙여서 커지기때문에,
+    rem을 쓰면 body등에 썼던 클래스의 폰트 비율을 무시함 */
+
+  
+}
+#programmer{
+    margin-top: 0;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: normal;
+    color: #FFFEEC;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5782BB;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: #5782BB;    
+}
+.pro{
+    text-decoration: underline;
+}
+
+p {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.top-container{ 
+    background-color: #5782BB;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.top-cloud{
+    position: absolute;
+    right:20%;
+    top:10%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:20%;
+
+}
+.profile {
+    line-height: 2;
+}
+
+.profile-img{
+    width: 200px;
+    padding-bottom: 70px;
+}
+
+.skill-row {
+    text-align: left;
+    line-height: 2;
+    display: inline-block;
+    margin: 30px;
+}
+
+.first-skill{
+    width: 30%;
+    float: left;
+    /*! 플로팅 속성은 남용하지 말 것. 텍스트를 둘러 쌀때만 한정적으로 사용.*/
+    margin-right: 2rem;
+}
+
+/* .first-skill-desc {
+    clear:left;
+} */
+/* 이런식으로 p가 float 옆에 나타나는걸 방지 할 수 있음. 이미지 아래로 나옴. 
+당연하지만 해당 텍스트 클래스명을 지정해야함(현재 삭제)*/
+
+.second-skill{
+    width: 30%;
+    float: right;
+    margin-left: 2rem;
+}
+
+.contact-me{
+    line-height: 2;
+}
+
+.middle-container{
+    width: 60%;
+    margin: 100px auto 100px auto;
+}
+
+.bottom-container{
+    background-color: #5782BB;
+    padding: 30px;
+}
+
+.footer-link{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: bold;
+    font-style: normal;    
+    color: #FFFEEC;
+    display: inline-block;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #FFFEEC;
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: normal;    
+}
+
+
+hr {
+    border : 0px;
+    border-top: 5px dotted grey;
+    width: 10%;
+    margin: 50px auto 50px auto;
+}
+
+
+.btn {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #5782BB;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
